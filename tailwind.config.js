@@ -10,6 +10,8 @@ module.exports = {
       base: ['16px', '24px'],
       lg: ['20px', '28px'],
       xl: ['24px', '32px'],
+      xxl: ['30px', '36px'],
+      xxxl: ['60px', '69px'],
     },
     fontWeight: {
       thin: '100',
