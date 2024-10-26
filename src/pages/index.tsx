@@ -1,6 +1,7 @@
 import * as React from "react";
 import Header from "../components/header";
 import Main from "../components/main";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Header />
       </div>
       <Main />
+      <Footer />
     </div>
   );
 }
