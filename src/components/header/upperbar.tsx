@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-scroll";
 
 export default function Upperbar() {
   return (
@@ -10,9 +11,36 @@ export default function Upperbar() {
         GigaDesk
       </div>
       <div className="grid grid-cols-3 max-lg:hidden">
-        <div>What we do</div>
-        <div>What we think</div>
-        <div>Who we are</div>
+        <Link
+          activeClass="font-medium"
+          to="do"
+          spy={true}
+          offset={-150}
+          smooth={true}
+          className="cursor-pointer"
+        >
+          <div>What we do</div>
+        </Link>
+        <Link
+          activeClass="font-medium"
+          to="think"
+          spy={true}
+          offset={-150}
+          smooth={true}
+          className="cursor-pointer"
+        >
+          <div>What we think</div>
+        </Link>
+        <Link
+          activeClass="font-medium"
+          to="are"
+          spy={true}
+          offset={-50}
+          smooth={true}
+          className="cursor-pointer"
+        >
+          <div>Who we are</div>
+        </Link>
       </div>
     </div>
   );
