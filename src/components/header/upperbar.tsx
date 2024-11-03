@@ -16,6 +16,7 @@ export default function Upperbar() {
           to="do"
           spy={true}
           offset={-150}
+          smooth={true}
           className="cursor-pointer"
         >
           <div>What we do</div>
@@ -25,6 +26,7 @@ export default function Upperbar() {
           to="think"
           spy={true}
           offset={-150}
+          smooth={true}
           className="cursor-pointer"
         >
           <div>What we think</div>
@@ -34,6 +36,7 @@ export default function Upperbar() {
           to="are"
           spy={true}
           offset={-50}
+          smooth={true}
           className="cursor-pointer"
         >
           <div>Who we are</div>
