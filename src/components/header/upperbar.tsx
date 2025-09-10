@@ -8,7 +8,7 @@ export default function Upperbar() {
       style={{ fontFamily: "Graphik" }}
     >
       <div className="text-purple-700 font-semibold text-lg grid content-center max-lg:justify-items-center">
-        GigaDesk
+        Royal Kings Transporters
       </div>
       <div className="grid grid-cols-3 max-lg:hidden">
         <Link
@@ -29,7 +29,7 @@ export default function Upperbar() {
           smooth={true}
           className="cursor-pointer"
         >
-          <div>What we think</div>
+          <div>Our Blog</div>
         </Link>
         <Link
           activeClass="font-medium"
