@@ -15,7 +15,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        Platforms
+        RKT Translocation
       </Link>
       <Link
         activeClass="bg-purple-700"
@@ -25,7 +25,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        Security
+        RKT Consolidation
       </Link>
       <Link
         activeClass="bg-purple-700"
@@ -35,37 +35,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        Data
-      </Link>
-      <Link
-        activeClass="bg-purple-700"
-        to="seo"
-        spy={true}
-        offset={-50}
-        smooth={true}
-        className="py-2"
-      >
-        SEO
-      </Link>
-      <Link
-        activeClass="bg-purple-700"
-        to="outsourcing"
-        spy={true}
-        offset={-50}
-        smooth={true}
-        className="py-2"
-      >
-        Outsourcing
-      </Link>
-      <Link
-        activeClass="bg-purple-700"
-        to="cloud"
-        spy={true}
-        offset={-50}
-        smooth={true}
-        className="py-2"
-      >
-        Cloud
+        Royal Express
       </Link>
     </div>
   );
