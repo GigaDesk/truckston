@@ -1,9 +1,10 @@
 import * as React from "react";
+import ReactWhatsapp from "react-whatsapp";
 
 function SocialMediaLinks() {
   return (
     <div className=" w-full flex py-4 gap-4 flex-wrap">
-      <a href="https://www.instagram.com/gigadeskservices/">
+      <a href="">
         <button className="w-8 h-8 flex items-center justify-center rounded-full relative overflow-hidden bg-white shadow-md shadow-gray-200 group transition-all duration-500">
           <svg
             className="fill-gray-900 relative z-10 transition-all duration-500 group-hover:fill-white"
@@ -65,7 +66,8 @@ function SocialMediaLinks() {
         </svg>
         <div className="absolute top-full left-0 w-full h-full rounded-full bg-black z-0 transition-all duration-500 group-hover:top-0"></div>
       </button>
-      <a href="https://www.tiktok.com/@gigadesk">
+      
+      <a href="">
         <button className="w-8 h-8 flex items-center justify-center relative overflow-hidden rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
           <svg
             className="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white"
@@ -97,6 +99,7 @@ function SocialMediaLinks() {
           <div className="absolute top-full left-0 w-full h-full rounded-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-black via-black to-red-600 z-0 transition-all duration-500 group-hover:top-0"></div>
         </button>
       </a>
+      <ReactWhatsapp number="+254703288799" element="button">
       <button className="w-8 h-8 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
         <svg
           className="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white"
@@ -119,6 +122,7 @@ function SocialMediaLinks() {
         </svg>
         <div className="absolute top-full left-0 w-full h-full rounded-full bg-green-400 z-0 transition-all duration-500 group-hover:top-0"></div>
       </button>
+      </ReactWhatsapp>
       <button className="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
         <svg
           className="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white"
@@ -135,7 +139,7 @@ function SocialMediaLinks() {
         </svg>
         <div className="absolute top-full left-0 w-full h-full rounded-full bg-[#006699] z-0 transition-all duration-500 group-hover:top-0"></div>
       </button>
-      <a href="https://www.youtube.com/channel/UC5i9rrvAzOLtqROfM28dXMA">
+      <a href="">
         <button className="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
           <svg
             className="fill-gray-900 relative z-10 transition-all duration-300 group-hover:fill-white"
