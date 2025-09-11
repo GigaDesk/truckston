@@ -20,9 +20,19 @@ export default function Footer() {
             className="font-normal text-base py-4"
             href="https://mail.google.com/"
           >
-            gigadeskpartners@gmail.com
+            royalkingstransporters@gmail.com
           </a>
-          <div className="pt-4">
+          <div>
+            <p className="inline-block text-base font-normal">
+              Tel: 0703288799
+            </p>
+          </div>
+          <div>
+            <p className="inline-block text-base font-normal">
+              P.O BOX 10472-00200, Nairobi
+            </p>
+          </div>
+          <div className="">
             <div className="inline-block">
               <svg
                 className="inline-block"
@@ -39,8 +49,9 @@ export default function Footer() {
                 <circle cx="10" cy="10" r="9.5" stroke="white" />
               </svg>
             </div>
+
             <p className="inline-block text-base font-normal">
-              2024 GigaDesk. All Rights Reserved{" "}
+              2025 Royal Kings Transporters. All Rights Reserved{" "}
             </p>
           </div>
         </div>
