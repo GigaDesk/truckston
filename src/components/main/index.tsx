@@ -2,6 +2,7 @@ import * as React from "react";
 import Service1 from "./service1";
 import Service2 from "./service2";
 import { Element } from "react-scroll";
+import Carousel from "./carousel";
 
 export default function Main() {
   return (
@@ -54,6 +55,14 @@ Alternatively, if your goods will fill a truck i.e. a full load, with the remain
             video="https://videos.ctfassets.net/vjt7hlwnzx7i/1pdY8vdpmhv5vyZrp3dXPk/4541049467e6e31afb1d68f11e569f32/3129671-uhd_3840_2160_30fps.mp4"
           />
         </Element>
+      </Element>
+      <Element name="cargo">
+        <div className="grid justify-items-center mt-52 mb-12">
+          Cargo Transported
+        </div>
+        <div className="md:px-16 lg:px-32">
+          <Carousel />
+        </div>
       </Element>
       <Element name="think">
         <div className="grid justify-items-center mt-52 mb-12"> Our Blog </div>

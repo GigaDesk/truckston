@@ -9,7 +9,7 @@ export default function Lowerbar(props) {
       style={{ fontFamily: "Graphik" }}
     >
       <div className="font-medium content-center">We Care About Your Load</div>
-      <div className="grid grid-cols-3 max-lg:hidden">
+      <div className="grid grid-cols-4 max-lg:hidden">
         <Link
           activeClass="bg-purple-700"
           to="platforms"
@@ -18,7 +18,7 @@ export default function Lowerbar(props) {
           smooth={true}
           className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[35%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[35%] after:bottom-4 after:right-[50%]"
         >
-          RKT Translocation
+          Translocation
         </Link>
         <Link
           activeClass="bg-purple-700"
@@ -28,7 +28,7 @@ export default function Lowerbar(props) {
           smooth={true}
           className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[30%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[30%] after:bottom-4 after:right-[50%]"
         >
-          RKT Consolidation
+          Consolidation
         </Link>
         <Link
           activeClass="bg-purple-700"
@@ -39,6 +39,16 @@ export default function Lowerbar(props) {
           className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[20%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[20%] after:bottom-4 after:right-[50%]"
         >
           Royal Express
+        </Link>
+        <Link
+          activeClass="bg-purple-700"
+          to="cargo"
+          spy={true}
+          offset={-50}
+          smooth={true}
+          className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[20%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[20%] after:bottom-4 after:right-[50%]"
+        >
+          Cargo
         </Link>
       </div>
       <div className="grid grid-cols-6 lg:hidden relative">

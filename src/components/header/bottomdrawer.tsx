@@ -37,6 +37,16 @@ export default function BottomDrawer() {
       >
         Royal Express
       </Link>
+      <Link
+        activeClass="bg-purple-700"
+        to="cargo"
+        spy={true}
+        offset={-50}
+        smooth={true}
+        className="py-2"
+      >
+        Cargo
+      </Link>
     </div>
   );
 }
