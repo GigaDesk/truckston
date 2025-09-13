@@ -12,7 +12,7 @@ export default function Service2(props) {
         <p className="text-base font-normal">{props.description}</p>
       </div>
       <div>
-        <video width="720" height="480" autoPlay muted src={props.video} loop />
+        <video width="720" height="480" autoPlay muted src={props.video}  className="w-88 h-80 object-cover" loop />
       </div>
     </div>
   );

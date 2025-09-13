@@ -37,7 +37,7 @@ Translocation of light machineries such as compressors, generators and construct
 
 Flatbed Towing of middle sized vehicles - the service is for long distance translocations of small and mid sized vehicles.
 "
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/m0gDeiygA8kGVT4Sx9wdl/1bffe09e8cd9a3a712c23d9ac4a47a28/4884230-uhd_3840_2160_30fps.mp4"
+            video="https://videos.ctfassets.net/vjt7hlwnzx7i/4K7ewySPlPXYP972Bn0pYR/9a3a2122e1cb251877449b695b9bab61/6170064-uhd_3840_2160_25fps.mp4"
           />
         </Element>
         <Element name="security">
@@ -46,14 +46,14 @@ Flatbed Towing of middle sized vehicles - the service is for long distance trans
             description="Because more often most goods are small in size and cannot fill our trucks, we consolidate. Here, goods from different clients are co-transported to their respective destinations. Consequently, turnaround time would take a few more hours. To minimise this, and with our experience, we appropriately schedule to optimise our route plans.
 Alternatively, if your goods will fill a truck i.e. a full load, with the remainder not able to fill another truck, we have a solution for you. The remainder can be consolidated and transported.
 "
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/2SlIFmuX3Xq2grNz2mQqAr/90eb11b1187bc8ddf3eb25d372c3f38b/6963744-hd_1920_1080_25fps.mp4"
+            video="https://videos.ctfassets.net/vjt7hlwnzx7i/4ueNmjMenmQeln7HPXpJpg/127464c2a42b779fde46204d88d8b5a9/5054381-uhd_2160_3840_30fps.mp4"
           />
         </Element>
         <Element name="data">
           <Service1
             name="Royal Express"
-            description="Royal express is an express translocation of single clients’ cargo from one location to another. The service is available for full capacity load, specialised goods that cannot be consolidates and in case of non full capacity loads that require urgent delivery."
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/1pdY8vdpmhv5vyZrp3dXPk/4541049467e6e31afb1d68f11e569f32/3129671-uhd_3840_2160_30fps.mp4"
+            description="Royal Express offers dedicated, direct transportation for a single client’s cargo, ensuring swift and secure delivery from one location to another. This premium service is ideal for full-capacity loads, as well as for specialized goods that cannot be consolidated with other shipments. We also provide this service for time-sensitive, non-full-capacity loads that require urgent delivery."
+            video="https://videos.ctfassets.net/vjt7hlwnzx7i/4Nsl6YTeoeAo1KqB6p1u1S/18bffc9426f509228f542df1f52f111b/6169121-uhd_3840_2160_25fps.mp4"
           />
         </Element>
       </Element>
