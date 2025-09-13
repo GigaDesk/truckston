@@ -1,7 +1,6 @@
 import * as React from "react";
 import Service1 from "./service1";
 import { Element } from "react-scroll";
-import Carousel from "./carousel";
 
 export default function Main() {
   return (

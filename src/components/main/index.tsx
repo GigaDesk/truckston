@@ -3,6 +3,7 @@ import Service1 from "./service1";
 import Service2 from "./service2";
 import { Element } from "react-scroll";
 import Carousel from "./carousel";
+import { Link } from "gatsby";
 
 export default function Main() {
   return (
@@ -74,7 +75,7 @@ Alternatively, if your goods will fill a truck i.e. a full load, with the remain
           bank. We've put together a comprehensive guide to help you navigate
           the world of transportation. We'll walk you through the key factors to
           consider so you can make informed decisions, avoid common pitfalls,
-          and ensure a smooth, worry-free move. Read More.
+          and ensure a smooth, worry-free move. <Link to="/blog"><span className="text-purple-700">Read More.</span></Link>
         </p>
       </Element>
       <Element name="are">
