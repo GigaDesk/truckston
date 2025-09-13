@@ -9,43 +9,53 @@ export default function BottomDrawer() {
     >
       <Link
         activeClass="bg-purple-700"
-        to="platforms"
+        to="safety"
         spy={true}
         offset={-50}
         smooth={true}
         className="py-2"
       >
-        RKT Translocation
+        Safety
       </Link>
       <Link
         activeClass="bg-purple-700"
-        to="security"
+        to="packaging"
         spy={true}
         offset={-50}
         smooth={true}
         className="py-2"
       >
-        RKT Consolidation
+        Packaging
       </Link>
       <Link
         activeClass="bg-purple-700"
-        to="data"
+        to="time"
         spy={true}
         offset={-50}
         smooth={true}
         className="py-2"
       >
-        Royal Express
+        Time
       </Link>
       <Link
         activeClass="bg-purple-700"
-        to="cargo"
+        to="road"
         spy={true}
         offset={-50}
         smooth={true}
         className="py-2"
       >
-        Cargo
+        Road
+      </Link>
+      <Link
+        activeClass="bg-purple-700"
+        to="cost"
+        spy={true}
+        offset={-50}
+        smooth={true}
+        className="py-2"
+      >
+        Cost
       </Link>
     </div>
   );

@@ -1,10 +1,9 @@
 import * as React from "react";
 import Service1 from "./service1";
 import Service2 from "./service2";
-import { useState } from "react";
-import Partners from "./partners";
-import Insights from "./Insights";
 import { Element } from "react-scroll";
+import Carousel from "./carousel";
+import { Link } from "gatsby";
 
 export default function Main() {
   return (
@@ -13,62 +12,98 @@ export default function Main() {
       className="text-xl md:text-xxxl text-white bg-neutral-950 font-medium pt-48 px-12"
     >
       <Element name="do">
-        Your trusted partner, for digital success
-        <p className="text-lg pt-4 font-normal">
-          Trust us to understand your unique needs. We deliver tailored,
-          cutting-edge digital solutions that propel your business into the
-          future. Our customer-centric approach ensures your success.
+        What We Do
+        <p className="text-lg pt-4 pb-8 font-normal">
+          Royal Kings Transporters offers reliable translocation services of
+          goods. We offer reliable, timely, secure and stress-free translocation
+          services for your production line, industrial material, construction
+          and household and office removals among other goods.
         </p>
+        How We Do It
+        <p className="text-lg pt-4 pb-8 font-normal">
+          As a SmartCarrier, were are dedicated to ensuring timely, damage-free
+          and safe delivery of your goods. We collect and deliver safely your
+          cargo to the destinations as instructed.
+        </p>
+        Our Services
         <Element name="platforms">
           <Service1
-            name="Platforms"
-            description="Transform your business with cutting-edge platforms. Our expert team designs, develops, and implements robust, scalable, and secure platforms tailored to your specific needs. From streaming services, enterprise resource planning (ERP) to customer relationship management (CRM), we deliver solutions that drive efficiency and innovation."
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/m0gDeiygA8kGVT4Sx9wdl/1bffe09e8cd9a3a712c23d9ac4a47a28/4884230-uhd_3840_2160_30fps.mp4"
+            name="RKT Translocation"
+            description="RKT offers timely and efficient door-to-door transportation of general goods and middle size machines.
+
+Transportation of General Goods including household goods, furniture, stationary, hardware, fabricated steel structures, farm produce and in puts amongst others.
+
+Translocation of light machineries such as compressors, generators and construction mixers among others.
+
+Flatbed Towing of middle sized vehicles - the service is for long distance translocations of small and mid sized vehicles.
+"
+            video="https://videos.ctfassets.net/vjt7hlwnzx7i/4K7ewySPlPXYP972Bn0pYR/9a3a2122e1cb251877449b695b9bab61/6170064-uhd_3840_2160_25fps.mp4"
           />
         </Element>
         <Element name="security">
           <Service2
-            name="Security"
-            description="Protect your digital assets with our comprehensive security solutions. Our cybersecurity experts safeguard your systems, data, and networks from cyber threats. We offer a range of services, including threat detection, incident response, vulnerability assessment, and compliance consulting."
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/2SlIFmuX3Xq2grNz2mQqAr/90eb11b1187bc8ddf3eb25d372c3f38b/6963744-hd_1920_1080_25fps.mp4"
+            name="RKT Consolidation"
+            description="Because more often most goods are small in size and cannot fill our trucks, we consolidate. Here, goods from different clients are co-transported to their respective destinations. Consequently, turnaround time would take a few more hours. To minimise this, and with our experience, we appropriately schedule to optimise our route plans.
+Alternatively, if your goods will fill a truck i.e. a full load, with the remainder not able to fill another truck, we have a solution for you. The remainder can be consolidated and transported.
+"
+            video="https://videos.ctfassets.net/vjt7hlwnzx7i/4ueNmjMenmQeln7HPXpJpg/127464c2a42b779fde46204d88d8b5a9/5054381-uhd_2160_3840_30fps.mp4"
           />
         </Element>
         <Element name="data">
           <Service1
-            name="Data"
-            description="Unlock the power of your data. Our data experts help you harness the value of your information assets. We provide data analytics, data engineering, and data science services to drive informed decision-making and optimize business processes."
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/1pdY8vdpmhv5vyZrp3dXPk/4541049467e6e31afb1d68f11e569f32/3129671-uhd_3840_2160_30fps.mp4"
+            name="Royal Express"
+            description="Royal Express offers dedicated, direct transportation for a single client’s cargo, ensuring swift and secure delivery from one location to another. This premium service is ideal for full-capacity loads, as well as for specialized goods that cannot be consolidated with other shipments. We also provide this service for time-sensitive, non-full-capacity loads that require urgent delivery."
+            video="https://videos.ctfassets.net/vjt7hlwnzx7i/4Nsl6YTeoeAo1KqB6p1u1S/18bffc9426f509228f542df1f52f111b/6169121-uhd_3840_2160_25fps.mp4"
           />
         </Element>
-        <Element name="seo">
-          <Service2
-            name="SEO"
-            description="Boost your online visibility and attract more customers with our expert SEO services. Our SEO specialists optimize your website to improve search engine rankings and drive organic traffic. We help you achieve top search engine results and increase your brand's online presence."
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/2rzMcrVSXZUdXGthmBdMXb/75a0eefd2745898ead347c546e1e5954/4549682-hd_1920_1080_30fps__1_.mp4"
-          />
-        </Element>
-        <Element name="outsourcing">
-          <Service1
-            name="Outsourcing"
-            description=" Extend your team and reduce costs with our flexible outsourcing solutions. Our skilled IT professionals provide a wide range of services, including application development, infrastructure management, and IT support. We deliver high-quality, cost-effective solutions to meet your business needs."
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/57Sywu7mKtCBNbqvmROA41/5e385b9612e85fad33d4c7f17603f9cf/6804117-hd_2048_1080_25fps.mp4"
-          />
-        </Element>
-        <Element name="cloud">
-          <Service2
-            name="Cloud"
-            description="Embrace the power of the cloud with our comprehensive cloud solutions. Our cloud experts help you migrate to the cloud, optimize your cloud infrastructure, and leverage cloud-native technologies. We offer services for major cloud providers, including AWS, Azure, and Google Cloud Platform."
-            video="https://videos.ctfassets.net/vjt7hlwnzx7i/3RhO7ZgITfsP3NBOMTXuHg/4ef76e71d15009e1d0d37d7aa8310246/1085656-hd_1920_1080_25fps.mp4"
-          />
-        </Element>
+      </Element>
+      <Element name="cargo">
+        <div className="grid justify-items-center mt-52 mb-12">
+          Cargo Transported
+        </div>
+        <div className="md:px-16 lg:px-32">
+          <Carousel />
+        </div>
       </Element>
       <Element name="think">
-        <div className="grid justify-items-center mt-52"> Our Insights </div>
-        <Insights />
+        <div className="grid justify-items-center mt-52 mb-12"> Our Blog </div>
+        <p className="text-base font-normal">
+          Thinking about moving? Relocating your belongings, whether it's a few
+          cherished items or an entire household, is a big step. The process can
+          seem overwhelming, with so many things to consider—from keeping your
+          items safe to making sure they arrive on time and without breaking the
+          bank. We've put together a comprehensive guide to help you navigate
+          the world of transportation. We'll walk you through the key factors to
+          consider so you can make informed decisions, avoid common pitfalls,
+          and ensure a smooth, worry-free move. <Link to="/blog"><span className="text-purple-700">Read More.</span></Link>
+        </p>
       </Element>
       <Element name="are">
-        <div className="grid justify-items-center pt-20"> Our Partners </div>
-        <Partners />
+        <div className="grid justify-items-center pt-20"> Who We Are </div>
+        <p className="text-lg pt-4 font-normal">
+          Royal Kings Transporters is a SmartCarrier involved in transportation
+          of cargo within Kenya.
+        </p>
+        <div className="grid justify-items-center pt-20">Regions Covered</div>
+        <p className="text-lg pt-4 font-normal">
+          At present we are offering transportation services between Nairobi,
+          Nakuru and Naivasha to Western Kenya including Kisumu, Homabay,
+          Migori, Siaya, Kakamega, Busia, Vihiga and Bungoma counties.
+        </p>
+        <div className="grid justify-items-center pt-20">Why Choose Us</div>
+        <p className="text-lg pt-4 font-normal">
+          We understand the value of your cargo and time. And therefore we
+          endeavour to preserve this by being:
+          <ul className="list-disc pl-6">
+            <li>Reliable</li>
+            <li>Honest</li>
+            <li>Timely</li>
+            <li>Secure</li>
+            <li>Customer Centered</li>
+            <li>Innovative</li>
+            <li>Together</li>
+          </ul>
+        </p>
       </Element>
     </div>
   );

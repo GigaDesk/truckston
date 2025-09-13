@@ -10,36 +10,26 @@ export default function Upperbar() {
       <div className="text-purple-700 font-semibold text-lg grid content-center max-lg:justify-items-center">
         Royal Kings Transporters
       </div>
-      <div className="grid grid-cols-3 max-lg:hidden">
+      <div className="grid grid-cols-2 max-lg:hidden">
         <Link
           activeClass="font-medium"
-          to="do"
+          to="factors"
           spy={true}
           offset={-150}
           smooth={true}
           className="cursor-pointer"
         >
-          <div>What we do</div>
+          <div>Factors to Consider Before Transportation</div>
         </Link>
         <Link
           activeClass="font-medium"
-          to="think"
-          spy={true}
-          offset={-150}
-          smooth={true}
-          className="cursor-pointer"
-        >
-          <div>Our Blog</div>
-        </Link>
-        <Link
-          activeClass="font-medium"
-          to="are"
+          to="reduce"
           spy={true}
           offset={-50}
           smooth={true}
           className="cursor-pointer"
         >
-          <div>Who we are</div>
+          <div>Reducing Costs</div>
         </Link>
       </div>
     </div>
