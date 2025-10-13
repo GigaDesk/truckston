@@ -4,13 +4,16 @@ import Service2 from "./service2";
 import { Element } from "react-scroll";
 import Carousel from "./carousel";
 import { Link } from "gatsby";
+import Hero from "./hero";
 
 export default function Main() {
   return (
     <div
       style={{ fontFamily: "Graphik" }}
-      className="text-xl md:text-xxxl font-medium pt-48 px-12"
+      className="text-xl md:text-xxxl font-medium"
     >
+      <Hero />
+      <div className="px-12">
       <Element name="do">
         What We Do
         <p className="text-lg pt-4 pb-8 font-normal">
@@ -105,6 +108,7 @@ Alternatively, if your goods will fill a truck i.e. a full load, with the remain
           </ul>
         </p>
       </Element>
+      </div>
     </div>
   );
 }
