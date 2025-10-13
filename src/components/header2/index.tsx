@@ -30,7 +30,7 @@ export default function Header() {
   }, [latestScroll, newScroll, hideBar]);
 
   return (
-    <header className="bg-neutral-950">
+    <header className="bg-white">
       <div className={hideBar ? "hidden" : ""}>
         <Upperbar />
       </div>

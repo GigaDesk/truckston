@@ -9,7 +9,7 @@ export default function Main() {
   return (
     <div
       style={{ fontFamily: "Graphik" }}
-      className="text-xl md:text-xxxl text-white bg-neutral-950 font-medium pt-48 px-12"
+      className="text-xl md:text-xxxl font-medium pt-48 px-12"
     >
       <Element name="do">
         What We Do
@@ -75,7 +75,7 @@ Alternatively, if your goods will fill a truck i.e. a full load, with the remain
           bank. We've put together a comprehensive guide to help you navigate
           the world of transportation. We'll walk you through the key factors to
           consider so you can make informed decisions, avoid common pitfalls,
-          and ensure a smooth, worry-free move. <Link to="/blog"><span className="text-purple-700">Read More.</span></Link>
+          and ensure a smooth, worry-free move. <Link to="/blog"><span className="text-blue-700">Read More.</span></Link>
         </p>
       </Element>
       <Element name="are">

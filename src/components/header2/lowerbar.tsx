@@ -5,58 +5,58 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 export default function Lowerbar(props) {
   return (
     <div
-      className="text-white h-14 bg-purple-950 w-full grid grid-cols-[1fr_20px] lg:grid-cols-[1fr_600px] px-12"
+      className="text-white h-14 bg-blue-700 w-full grid grid-cols-[1fr_20px] lg:grid-cols-[1fr_600px] px-12"
       style={{ fontFamily: "Graphik" }}
     >
       <div className="font-medium content-center">Factors to Consider Before Transportation</div>
       <div className="grid grid-cols-5 max-lg:hidden">
         <Link
-          activeClass="bg-purple-700"
+          activeClass="bg-blue-950"
           to="safety"
           spy={true}
           offset={-50}
           smooth={true}
-          className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[20%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[20%] after:bottom-4 after:right-[50%]"
+          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[20%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[20%] after:bottom-4 after:right-[50%]"
         >
           Safety
         </Link>
         <Link
-          activeClass="bg-purple-700"
+          activeClass="bg-blue-950"
           to="packaging"
           spy={true}
           offset={-50}
           smooth={true}
-          className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[32%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[32%] after:bottom-4 after:right-[50%]"
+          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[32%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[32%] after:bottom-4 after:right-[50%]"
         >
           Packaging
         </Link>
         <Link
-          activeClass="bg-purple-700"
+          activeClass="bg-blue-950"
           to="time"
           spy={true}
           offset={-50}
           smooth={true}
-          className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[16%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[16%] after:bottom-4 after:right-[50%]"
+          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[16%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[16%] after:bottom-4 after:right-[50%]"
         >
           Time
         </Link>
         <Link
-          activeClass="bg-purple-700"
+          activeClass="bg-blue-950"
           to="road"
           spy={true}
           offset={-50}
           smooth={true}
-          className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[16%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[16%] after:bottom-4 after:right-[50%]"
+          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[16%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[16%] after:bottom-4 after:right-[50%]"
         >
           Road
         </Link>
         <Link
-          activeClass="bg-purple-700"
+          activeClass="bg-blue-950"
           to="cost"
           spy={true}
           offset={-50}
           smooth={true}
-          className="grid justify-items-center content-center px-3 hover:bg-purple-700 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[16%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[16%] after:bottom-4 after:right-[50%]"
+          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[16%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[16%] after:bottom-4 after:right-[50%]"
         >
           Cost
         </Link>

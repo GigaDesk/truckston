@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <div className="relative">
-      <div className="fixed top-0 left-0 right-0 z-20">
+      <div className="fixed top-0 left-0 right-0 z-50">
         <Header />
       </div>
       <Main />

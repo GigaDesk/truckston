@@ -4,7 +4,7 @@ import SocialMediaLinks from "./socialMediaLinks";
 export default function Footer() {
   return (
     <div
-      className="text-sm md:text-xxl text-white bg-neutral-950 font-medium py-12 px-8"
+      className="text-sm md:text-xxl font-medium py-12 px-8"
       style={{ fontFamily: "Graphik" }}
     >
       <div className="grid md:grid-cols-2">
