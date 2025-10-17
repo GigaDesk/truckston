@@ -13,7 +13,7 @@ export default function Main() {
       className="text-xl md:text-xxxl font-medium"
     >
       <Hero />
-      <div className="px-12">
+      <div className="mt-20 px-12">
       <Element name="do">
         What We Do
         <p className="text-lg pt-4 pb-8 font-normal">
