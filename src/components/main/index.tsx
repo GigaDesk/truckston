@@ -31,21 +31,15 @@ export default function Main() {
         Our Services
         <Element name="platforms">
           <Service1
-            name="RKT Translocation"
-            description="RKT offers timely and efficient door-to-door transportation of general goods and middle size machines.
-
-Transportation of General Goods including household goods, furniture, stationary, hardware, fabricated steel structures, farm produce and in puts amongst others.
-
-Translocation of light machineries such as compressors, generators and construction mixers among others.
-
-Flatbed Towing of middle sized vehicles - the service is for long distance translocations of small and mid sized vehicles.
+            name="Royal Full Load: Transportation of a single full capacity load"
+            description="Your exclusive journey begins now. Dedicated truck capacity means a direct route with zero stops or transfers. Enjoy faster transit, maximum security, and minimal handling risk for your critical, high-volume cargo.
 "
             video="https://videos.ctfassets.net/vjt7hlwnzx7i/4K7ewySPlPXYP972Bn0pYR/9a3a2122e1cb251877449b695b9bab61/6170064-uhd_3840_2160_25fps.mp4"
           />
         </Element>
         <Element name="security">
           <Service2
-            name="RKT Consolidation"
+            name="Royal Consolidation: Co-transportation of goods from multiple clients to different destinations"
             description="Because more often most goods are small in size and cannot fill our trucks, we consolidate. Here, goods from different clients are co-transported to their respective destinations. Consequently, turnaround time would take a few more hours. To minimise this, and with our experience, we appropriately schedule to optimise our route plans.
 Alternatively, if your goods will fill a truck i.e. a full load, with the remainder not able to fill another truck, we have a solution for you. The remainder can be consolidated and transported.
 "
@@ -61,6 +55,14 @@ Alternatively, if your goods will fill a truck i.e. a full load, with the remain
         </Element>
       </Element>
       <Element name="cargo">
+          <Service2
+            name="Royal Special"
+            description="Royal Special is our custom solution for complex cargo. Trust our expertise to move your saloon cars, delicate glass, and heavy machinery with unrivaled security and tailored, white-glove logistics. Our customized transportation service provides the exact solution and equipment for your sensitive, high-value, and unique products. 
+"
+            video="https://videos.ctfassets.net/vjt7hlwnzx7i/43flYOSniOEnN49553zhjG/a46fcef9b794d4a0401b29ee3cf4849e/6169614-uhd_3840_2160_25fps.mp4"
+          />
+        </Element>
+      <Element name="">
         <div className="grid justify-items-center mt-52 mb-12">
           Cargo Transported
         </div>

@@ -16,9 +16,9 @@ export default function Lowerbar(props) {
           spy={true}
           offset={-50}
           smooth={true}
-          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[33%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[33%] after:bottom-4 after:right-[50%]"
+          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[23%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[23%] after:bottom-4 after:right-[50%]"
         >
-          Translocation
+          Full Load
         </Link>
         <Link
           activeClass="bg-blue-950"
@@ -46,9 +46,9 @@ export default function Lowerbar(props) {
           spy={true}
           offset={-50}
           smooth={true}
-          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[15%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[15%] after:bottom-4 after:right-[50%]"
+          className="grid justify-items-center content-center px-3 hover:bg-blue-950 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[35%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[35%] after:bottom-4 after:right-[50%]"
         >
-          Cargo
+          Royal Special
         </Link>
       </div>
       <div className="grid grid-cols-6 lg:hidden relative">

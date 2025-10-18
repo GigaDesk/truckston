@@ -15,7 +15,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        RKT Translocation
+        Royal Full Load
       </Link>
       <Link
         activeClass="bg-blue-700"
@@ -25,7 +25,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        RKT Consolidation
+        Royal Consolidation
       </Link>
       <Link
         activeClass="bg-blue-700"
@@ -45,7 +45,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        Cargo
+        Royal Special
       </Link>
     </div>
   );
