@@ -23,6 +23,7 @@ export default function Hero() {
           to machinery and saloon cars. Whatever your cargo, trust the Royal
           standard of care and efficiency.
         </p>
+        <div className="grid grid-cols-2 justify-items-start">
         <ReactWhatsapp number="+254703288799" element="button">
           <button
             type="button"
@@ -31,6 +32,10 @@ export default function Hero() {
             Get a Quote
           </button>
         </ReactWhatsapp>
+        <p className="font-medium text-lg md:text-xxl py-2.5 mt-12">
+       Call: +254703288799
+        </p>
+        </div>
       </div>
       <img
         src="https://images.ctfassets.net/vjt7hlwnzx7i/5cTTiT8C5O0Z7e10d8YkQS/6954b73dbe1628b4125785888f313a9d/image.jpeg"
