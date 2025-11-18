@@ -32,9 +32,7 @@ export default function Hero() {
             Get a Quote
           </button>
         </ReactWhatsapp>
-        <p className="font-medium text-lg md:text-xxl py-2.5 mt-12">
-       Call: +254703288799
-        </p>
+       
         </div>
       </div>
       <img

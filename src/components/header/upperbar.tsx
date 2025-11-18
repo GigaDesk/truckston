@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "react-scroll";
+import PhoneIcon from '@mui/icons-material/Phone';
 
 export default function Upperbar() {
   return (
@@ -10,7 +11,7 @@ export default function Upperbar() {
       <div className="text-blue-700 font-semibold text-lg grid content-center max-lg:justify-items-center">
         Royal Kings Transporters
       </div>
-      <div className="grid grid-cols-3 max-lg:hidden">
+      <div className="grid grid-cols-4 max-lg:hidden">
         <Link
           activeClass="font-medium"
           to="do"
@@ -41,6 +42,7 @@ export default function Upperbar() {
         >
           <div>Who we are</div>
         </Link>
+        <div><PhoneIcon /> +254703288799</div>
       </div>
     </div>
   );
