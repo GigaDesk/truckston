@@ -5,13 +5,14 @@ import PhoneIcon from '@mui/icons-material/Phone';
 export default function Upperbar() {
   return (
     <div
-      className="grid lg:grid-cols-2 content-center h-[72px] px-12"
+      className="grid lg:grid-cols-[1fr_2fr] content-center h-[72px] px-12"
       style={{ fontFamily: "Graphik" }}
     >
-      <div className="text-blue-700 font-semibold text-lg grid content-center max-lg:justify-items-center">
-        Royal Kings Transporters
+      <div className=" text-lg grid max-lg:grid-rows-2 content-center max-lg:justify-items-center">
+       <div className="text-blue-700  font-semibold">Royal Kings Transporters</div>
+       <div className="lg:hidden"><PhoneIcon /> +254703288799</div>
       </div>
-      <div className="grid grid-cols-4 max-lg:hidden">
+      <div className="grid grid-cols-5 max-lg:hidden">
         <Link
           activeClass="font-medium"
           to="do"
@@ -20,7 +21,17 @@ export default function Upperbar() {
           smooth={true}
           className="cursor-pointer"
         >
-          <div>What we do</div>
+          <div>Our Services</div>
+        </Link>
+        <Link
+          activeClass="font-medium"
+          to="are"
+          spy={true}
+          offset={-50}
+          smooth={true}
+          className="cursor-pointer"
+        >
+          <div>Who we are</div>
         </Link>
         <Link
           activeClass="font-medium"
@@ -34,13 +45,13 @@ export default function Upperbar() {
         </Link>
         <Link
           activeClass="font-medium"
-          to="are"
+          to="faq"
           spy={true}
-          offset={-50}
+          offset={-150}
           smooth={true}
           className="cursor-pointer"
         >
-          <div>Who we are</div>
+          <div>Frequently Asked Questions</div>
         </Link>
         <div><PhoneIcon /> +254703288799</div>
       </div>

@@ -4,48 +4,48 @@ import { Link } from "react-scroll";
 export default function BottomDrawer() {
   return (
     <div
-      className="grid grid-rows-6 px-12 text-lg border-b border-neutral-700"
+      className="grid grid-rows-6 text-lg border-b border-neutral-700"
       style={{ fontFamily: "Graphik" }}
     >
       <Link
         activeClass="bg-blue-700"
-        to="platforms"
+        to="do"
         spy={true}
         offset={-50}
         smooth={true}
-        className="py-2"
+        className="px-12"
       >
-        Royal Full Load
+        Our Services
       </Link>
       <Link
         activeClass="bg-blue-700"
-        to="security"
+        to="are"
         spy={true}
         offset={-50}
         smooth={true}
-        className="py-2"
+        className="px-12"
       >
-        Royal Consolidation
+        Who we are
       </Link>
       <Link
         activeClass="bg-blue-700"
-        to="data"
+        to="think"
         spy={true}
         offset={-50}
         smooth={true}
-        className="py-2"
+        className="px-12"
       >
-        Royal Express
+        Our Blog
       </Link>
       <Link
         activeClass="bg-blue-700"
-        to="cargo"
+        to="faq"
         spy={true}
         offset={-50}
         smooth={true}
-        className="py-2"
+        className="px-12"
       >
-        Royal Special
+        Frequently Asked Questions
       </Link>
     </div>
   );
