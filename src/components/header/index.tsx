@@ -31,7 +31,7 @@ export default function Header() {
 
   return (
     <header className="bg-white">
-      <div className={hideBar ? "hidden" : ""}>
+      <div>
         <Upperbar />
       </div>
       <Lowerbar handleOpen={handleOpen} open={open} />
